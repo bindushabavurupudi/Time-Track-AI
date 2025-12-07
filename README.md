@@ -140,6 +140,7 @@ Your app will run at:
 ### **Step 5 — Build for Deployment**
 npm run build
 This creates the docs/ folder used by GitHub Pages.
+
 ---
 ## 🖼️ 9. Screenshots (Recommended)
 
