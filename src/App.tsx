@@ -21,7 +21,7 @@ const App = () => (
         <Sonner />
 
         {/* ⭐ Works on GitHub Pages AND Localhost */}
-        <BrowserRouter basename={import.meta.env.PROD ? "/Time-Track-AI/" : "/"}>
+        <BrowserRouter basename={import.meta.env.PROD ? "/Time-Track-AI" : "/"}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/auth" element={<Auth />} />
