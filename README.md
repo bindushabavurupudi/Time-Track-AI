@@ -140,20 +140,20 @@ Your app will run at:
 ### **Step 5 — Build for Deployment**
 npm run build
 This creates the docs/ folder used by GitHub Pages.
-
+---
 ## 🖼️ 9. Screenshots (Recommended)
 
 Add screenshots here after taking them:
 
-![Home Screen](./screenshots/home.png)
-![Dashboard](./screenshots/dashboard.png)
-![Analytics Page](./screenshots/analytics.png)
-![No Data Screen](./screenshots/no-data.png)
-
+- ![Home Screen](./screenshots/home.png)
+- ![Dashboard](./screenshots/dashboard.png)
+- ![Analytics Page](./screenshots/analytics.png)
+- ![No Data Screen](./screenshots/no-data.png)
+---
 ## 🔮 10. Future Improvements
 
-Weekly & Monthly analytics
-Export to CSV/PDF
-Voice-based activity logging
-AI suggestions for productivity optimization
-Activity reminders / notifications
+- Weekly & Monthly analytics
+- Export to CSV/PDF
+- Voice-based activity logging
+- AI suggestions for productivity optimization
+- Activity reminders / notifications
