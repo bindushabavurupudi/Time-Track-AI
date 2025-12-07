@@ -4,8 +4,12 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  // ⭐ base only in production (for GitHub Pages)
-  base: mode === "production" ? "/time-sage/" : "/",
+  // IMPORTANT: GitHub Pages base path (CASE SENSITIVE)
+  base: mode === "production" ? "/Time-Track-AI/" : "/",
+
+  build: {
+    outDir: "docs",  // ⭐ GitHub Pages will use this folder
+  },
 
   server: {
     host: "::",
