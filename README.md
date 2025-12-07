@@ -1,73 +1,159 @@
-# Welcome to your Lovable project
+# 🕒 Time-Track-AI — AI-Powered Daily Time Tracking Dashboard
 
-## Project info
+A web application that helps users log daily activities, track how their 24 hours are spent, and visualize insights through interactive analytics. Built using React, Firebase, and AI-assisted tools.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🔗 1. Live Demo (Deployed Link)
+👉 **[https://bindushabavurupudi.github.io/Time-Track-AI/](https://bindushabavurupudi.github.io/Time-Track-AI/)**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📁 2. GitHub Repository
+👉 **[https://github.com/bindushabavurupudi/Time-Track-AI](https://github.com/bindushabavurupudi/Time-Track-AI)**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎥 3. Video Walkthrough Link
+👉 **[Video Walkthrough Coming Soon](#)**  
 
-**Use your preferred IDE**
+**Your video must include:**
+- Login / Signup  
+- Adding activities  
+- Remaining minutes logic  
+- Dashboard view  
+- “No Data Available” state  
+- Analytics page  
+- How AI tools helped in development  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📝 4. Project Description
 
-Follow these steps:
+Time-Track-AI is a smart daily time tracker where users can log activities with their duration, stay within the 1440-minute daily limit, and view insights such as:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Category-based time usage  
+- Activity duration comparisons  
+- Total minutes spent  
+- Number of activities logged  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This project was built using modern tools and powerful AI assistance to speed up development, improve design, and enhance user experience.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🤖 5. How AI Was Used in Development
+
+### **Lovable AI**
+- Generated UI screens  
+- Created component structure  
+- Helped design clean & responsive layout  
+
+### **ChatGPT**
+- Debugged routing & Firebase errors  
+- Guided GitHub Pages deployment  
+- Completed logic for adding/editing/deleting activities  
+- Implemented Vite config and Router basename logic  
+- Enhanced UI/UX and animations  
+
+AI significantly reduced development time and improved the quality of the final product.
+
+---
+
+## 🛠️ 6. Tech Stack
+
+### **Frontend**
+- React + TypeScript  
+- Vite  
+- TailwindCSS  
+- ShadCN UI  
+- Recharts (for charts)
+
+### **Backend**
+- Firebase Authentication  
+- Firebase Firestore  
+
+### **Deployment**
+- GitHub Pages (Vite → docs folder)
+
+---
+
+## ✨ 7. Features
+
+### 🔐 Authentication
+- Email/Password Login  
+- Google Login  
+- Protected Routes  
+- Unauthorized users redirected automatically  
+
+### 📝 Activity Tracking
+- Add, Edit, and Delete activities  
+- Category selection  
+- Duration input in minutes  
+- Enforces max **1440 minutes/day**  
+- Shows remaining minutes dynamically  
+
+### 📊 Analytics Dashboard
+- Date-based insights  
+- Pie Chart → Category breakdown  
+- Bar Chart → Activity durations  
+- Summary statistics:
+  - Total minutes logged  
+  - Number of activities  
+  - Category distribution  
+
+### 🎨 UI / UX
+- Glassmorphism design  
+- Smooth animations  
+- Dark theme  
+- Fully responsive layout  
+- Beautiful “No Data Available” empty state  
+
+---
+
+## 💻 8. How to Run the Project Locally
+
+### **Step 1 — Clone the Repository**
+git clone https://github.com/bindushabavurupudi/Time-Track-AI
+cd Time-Track-AI
+### **Step 2 — Install Dependencies**
+npm install
+### **Step 3 — Add Firebase Configuration**
+
+Create a .env file:
+
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+
+⚠️ Make sure you also add
+bindushabavurupudi.github.io
+to Authorized Domains in Firebase Authentication.
+### **Step 4 — Start the Development Server**
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Your app will run at:
+👉 **[http://localhost:8080/](http://localhost:8080/)**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### **Step 5 — Build for Deployment**
+npm run build
+This creates the docs/ folder used by GitHub Pages.
 
-**Use GitHub Codespaces**
+## 🖼️ 9. Screenshots (Recommended)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Add screenshots here after taking them:
 
-## What technologies are used for this project?
+![Home Screen](./screenshots/home.png)
+![Dashboard](./screenshots/dashboard.png)
+![Analytics Page](./screenshots/analytics.png)
+![No Data Screen](./screenshots/no-data.png)
 
-This project is built with:
+## 🔮 10. Future Improvements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Weekly & Monthly analytics
+Export to CSV/PDF
+Voice-based activity logging
+AI suggestions for productivity optimization
+Activity reminders / notifications
