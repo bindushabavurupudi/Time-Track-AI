@@ -14,7 +14,7 @@ A web application that helps users log daily activities, track how their 24 hour
 
 ---
 ```
-## 🎥 3. Video Walkthrough Link
+ 🎥 3. Video Walkthrough Link
 👉 **[Video Walkthrough Coming Soon](#)**  
 
 **Your video must include:**
@@ -144,7 +144,7 @@ This creates the docs/ folder used by GitHub Pages.
 
 ---
 ```
-## 🖼️ 9. Screenshots (Recommended)
+ 🖼️ 9. Screenshots (Recommended)
 
 Add screenshots here after taking them:
 
