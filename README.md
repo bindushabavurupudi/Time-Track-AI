@@ -13,7 +13,7 @@ A web application that helps users log daily activities, track how their 24 hour
 👉 **[https://github.com/bindushabavurupudi/Time-Track-AI](https://github.com/bindushabavurupudi/Time-Track-AI)**
 
 ---
-
+```
 ## 🎥 3. Video Walkthrough Link
 👉 **[Video Walkthrough Coming Soon](#)**  
 
@@ -26,6 +26,7 @@ A web application that helps users log daily activities, track how their 24 hour
 - Analytics page  
 - How AI tools helped in development  
 
+```
 ---
 
 ## 📝 4. Project Description
@@ -142,6 +143,7 @@ npm run build
 This creates the docs/ folder used by GitHub Pages.
 
 ---
+```
 ## 🖼️ 9. Screenshots (Recommended)
 
 Add screenshots here after taking them:
@@ -150,8 +152,9 @@ Add screenshots here after taking them:
 - ![Dashboard](./screenshots/dashboard.png)
 - ![Analytics Page](./screenshots/analytics.png)
 - ![No Data Screen](./screenshots/no-data.png)
+```
 ---
-## 🔮 10. Future Improvements
+## 🔮 9. Future Improvements
 
 - Weekly & Monthly analytics
 - Export to CSV/PDF
