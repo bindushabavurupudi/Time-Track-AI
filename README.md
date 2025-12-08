@@ -13,7 +13,7 @@ A web application that helps users log daily activities, track how their 24 hour
 👉 **[https://github.com/bindushabavurupudi/Time-Track-AI](https://github.com/bindushabavurupudi/Time-Track-AI)**
 
 ---
-```
+```md
  🎥 3. Video Walkthrough Link
 👉 **[Video Walkthrough Coming Soon](#)**  
 
@@ -143,7 +143,7 @@ npm run build
 This creates the docs/ folder used by GitHub Pages.
 
 ---
-```
+```md
  🖼️ 9. Screenshots (Recommended)
 
 Add screenshots here after taking them:
