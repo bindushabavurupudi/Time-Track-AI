@@ -14,6 +14,11 @@ A web application that helps users log daily activities, track how their 24 hour
 
 ---
 
+## 🎥 3. Video Walkthrough Link
+👉 **[https://drive.google.com/file/d/17hXcxuYBDH5tOA5HVV_1nT2J50v2eCMf/view?usp=drive_link](https://drive.google.com/file/d/17hXcxuYBDH5tOA5HVV_1nT2J50v2eCMf/view?usp=drive_link)** 
+
+---
+
 ## 📝 4. Project Description
 
 Time-Track-AI is a smart daily time tracker where users can log activities with their duration, stay within the 1440-minute daily limit, and view insights such as:
